@@ -1,4 +1,4 @@
-function calculate_Age(age){
+/* function calculate_Age(age){
 
     let remain_days =  (90*365) - (age*365);
     
@@ -10,3 +10,11 @@ function calculate_Age(age){
     
     }
     calculate_Age(32);
+ */
+
+    function bmi_Cal(weight,height){
+         var result = Math.floor(weight/height*height);
+         return result;
+    }
+    var result = bmi_Cal(3,2);
+    console.log(result);
