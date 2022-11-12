@@ -25,3 +25,5 @@
     var result = bmi_Cal(6,2);
     console.log(result);
 
+    var result = bmi_Cal(6,2);
+    console.log(result);
