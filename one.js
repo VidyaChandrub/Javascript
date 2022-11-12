@@ -18,3 +18,10 @@
     }
     var result = bmi_Cal(3,2);
     console.log(result);
+
+    var result = bmi_Cal(5,2);
+    console.log(result);
+
+    var result = bmi_Cal(6,2);
+    console.log(result);
+
