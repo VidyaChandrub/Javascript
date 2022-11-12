@@ -1,0 +1,30 @@
+label{
+    font-size: 27px;
+    color:yellow;
+    background-color: black;
+    
+}
+
+table{
+    margin:auto;
+    color:white;
+    background-color:black;
+    
+}
+body{
+    text-align: center;
+}
+
+button{
+    font-size:x-large;
+    width:40px;
+    border-radius:60%;
+    background-color:white;
+}
+.clear{
+    width:100px;
+    padding-left:40%;
+    padding-right:57%;
+    font-size: large;
+    border-radius:10%
+}
