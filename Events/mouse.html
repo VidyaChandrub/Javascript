@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./mouse.js" type="text/javascript"></script>
+</head>
+<body>
+    <h1>Button Assignment</h1>
+    <button id="mover" onmouseover="change_Mouse()" style="background-color:red;">mouseover</button>
+    <button id="mclick" onclick="change_Click()" style="background-color:red;">mouseclick</button>
+    <button id="mdbclk" ondblclick="change_Dbclk()" style="background-color:red;">mousedbclick</button>
+    <button id="mout" onmouseout="change_Out()" style="background-color:red;">mouseout</button>
+
+    <hr>
+
+    Name: <input type="text" id="abc" onfocus="change_Color()" onblur="change_upper()"/>
+</body>
+</html>

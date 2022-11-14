@@ -44,7 +44,7 @@ else{
     console.log("The given number is odd");
 } */
 
-var a=2;
+/* var a=2;
 var b=8;
 if (a>b){
    console.log("a is greater");
@@ -73,4 +73,14 @@ else if(a>c){
 }
 else{
     console.log("c is least");
-}
+} */
+
+function test (myCondition) {
+    if (myCondition) {
+      return "It was true";
+    }
+    return "It was false";
+  }
+  
+  let a = test(false);
+  console.log(a);
