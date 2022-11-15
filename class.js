@@ -27,6 +27,7 @@ class Account_1 {
 console.log(new Account_1());
 
 let a1 = new Account_1();
+let a2 = new Account_1();
 console.log(a1);
 console.log(a1.min_Balance);
 a1.open_Account();
