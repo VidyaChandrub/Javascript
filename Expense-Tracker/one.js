@@ -32,14 +32,14 @@ function initEvents(){
 }
 
 function onAddIncomeClick(){
-    
-    var transaction = { text: namein.value,
+    console.log('income')
+   /*  var transaction = { text: namein.value,
          amt: parseInt(amtin.value), type:'income'
         };
 
         transaction_amt.transcatins.push(transaction);
 
-        updateState();
+        updateState(); */
 }
 
 function onAddExpenseClick(){
