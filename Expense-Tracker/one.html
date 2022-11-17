@@ -11,26 +11,26 @@
     <h1>Expense Tracker</h1>
     <div>
         <h2>YOUR BALANCE</h2>
-        <h3 id="amount">0.00</h3>
+        <span id="amount">1000.00</span>
     </div>
     <div>
         <div>
             <h4>INCOME</h4>
-            <p id="income">+0.00</p>
+            <p id="income">+500.00</p>
         </div>
         <div>
             <h4>EXPENSE</h4>
-            <p id="expense">-0.00</p>
+            <p id="expense">-200.00</p>
         </div>
     </div>
     
         <h2>History</h2>
         <ul id="list">
-            <li>Cash <span>+400</span><button>x</button></li>
+            
         </ul>
         
         <h2>Add new transaction</h2>
-        <form id="form">
+        <form id="form" onsubmit="return false;">
         <div>
         <label for="text1">Text</label><br/>
         <input type="text" id="text1" placeholder="Enter the text..." />
@@ -41,9 +41,12 @@
         (negative-expense,positive-income)</label><br/>
         <input type="number" id="amt" placeholder="Enter amount..." />
         </div>
-        
-        <button type="submit"  value="Add transaction">Add transaction</button>
+        <button type="submit"  id="Add-Income" >Add Income</button><br/>
+        <button type="submit"  id="Add-Expense">Add Expense</button>
         </form>
+        <script src="./one.js" type="text/javascript"> </script>
+
+
 </body>
-<script src="./one.js" type="text/javascript"> </script>
+
 </html>
