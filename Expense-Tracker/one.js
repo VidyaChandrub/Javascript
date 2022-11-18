@@ -21,18 +21,18 @@ let transaction_amt = {
                     }
 function init(){
     updateState();
-    /* initEvents(); */
-    render();
+    initEvents();
+    
 }
 
 function initEvents(){
-    add_income.addEventListener('click', onAddIncomeClick);
-    add_expense.addEventListener('click', onAddExpenseClick);
+    document.addEventListener('click', onAddIncomeClick);
+    document.addEventListener('click', onAddExpenseClick);
  
 }
 
 function onAddIncomeClick(){
-    
+   
     var transaction = {text1:namein.value, amt:parseInt(amtin.value), type:'income'};
 
         transaction_amt.transcatins.push(transaction);
