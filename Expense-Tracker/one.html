@@ -30,7 +30,7 @@
         </ul>
         
         <h2>Add new transaction</h2>
-        <form id="form" onsubmit="return false;">
+        <form id="form" onsubmit="">
         <div>
         <label for="text1">Text</label><br/>
         <input type="text" id="text1" placeholder="Enter the text..." />
@@ -41,7 +41,7 @@
         (negative-expense,positive-income)</label><br/>
         <input type="number" id="amt" placeholder="Enter amount..." />
         </div>
-        <button type="submit"  id="Add-Income" >Add Income</button><br/>
+        <button type="submit"  id="Add-Income" onclick="onAddIncomeClick()" >Add Income</button><br/>
         <button type="submit"  id="Add-Expense">Add Expense</button>
         </form>
         <script src="./one.js" type="text/javascript"> </script>

@@ -12,34 +12,32 @@ let transaction_amt = {
                         income: 200,
                         expense: 100,
 
-                       transcatins: [{text:'Flower', amt:829, type:'income'},
-                        { text:'Salary', amt:2900, type:'expense'},
-                        { text:'book', amt:920, type:'income'},
-                        { text:'camera', amt:109, type:'income'},
+                       transcatins: [{text1:'Flower', amt:829, type:'income'},
+                        { text1:'Salary', amt:2900, type:'expense'},
+                        { text1:'book', amt:920, type:'income'},
+                        { text1:'camera', amt:109, type:'income'},
                     ]
 
                     }
 function init(){
     updateState();
-    initEvents();
+    /* initEvents(); */
     render();
 }
 
-function initEvents(){
+/* function initEvents(){
     add_income.addEventListener('click', onAddIncomeClick);
     add_expense.addEventListener('click', onAddExpenseClick);
  
-}
+} */
 
 function onAddIncomeClick(){
-    console.log('income')
-   /*  var transaction = { text: namein.value,
-         amt: parseInt(amtin.value), type:'income'
-        };
+    
+    var transaction = {text1:namein.value, amt:parseInt(amtin.value), type:'income'};
 
         transaction_amt.transcatins.push(transaction);
 
-        updateState(); */
+        updateState();
 }
 
 function onAddExpenseClick(){
@@ -77,7 +75,7 @@ function render(){
     for(var i=0; i<transaction_amt.transcatins.length; i++)
     {   item = transaction_amt.transcatins[i];
         list_items = document.createElement('li');
-        list_items.append(item.text);
+        list_items.append(item.text1);
 
         list_history.appendChild(list_items);
 
