@@ -25,11 +25,11 @@ function init(){
     render();
 }
 
-/* function initEvents(){
+function initEvents(){
     add_income.addEventListener('click', onAddIncomeClick);
     add_expense.addEventListener('click', onAddExpenseClick);
  
-} */
+}
 
 function onAddIncomeClick(){
     
