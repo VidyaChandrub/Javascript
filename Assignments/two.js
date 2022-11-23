@@ -42,6 +42,29 @@ console.log(i); */
   
   console.log(myConcat([1, 2], [3, 4, 5])); */
 
-  var arr = [6, 89, 3, 45];
+  /* var arr = [6, 89, 3, 45];
 var maximus = Math.max.apply(null,arr);
-console.log(maximus)
+console.log(maximus) */
+
+/* const myArray = [];
+
+for (let i = 9; i > 0; i -=2) {
+ console.log(myArray.push(i));
+} */
+/* 
+var myArray = [];
+
+// Only change code below this line.
+for (var i = 1; i > 0; i -= 2) {
+  console.log(myArray.push(i));
+} */
+
+const arr = [
+  [1, 2], [3, 4], [5, 6]
+];
+
+for (let i = 0; i < arr.length; i++) {
+  for (let j = 0; j < arr[i].length; j++) {
+    console.log(arr[i][j]);
+  }
+}
