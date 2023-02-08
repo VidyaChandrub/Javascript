@@ -16,10 +16,16 @@ var anotherarr = arrlist;
 arrlist.splice(0,arrlist.length)
 console.log(anotherarr); */
 
-function isInt(num) {
+/* function isInt(num) {
     return num % 1 === 0;
   }
   
   console.log(isInt(4)); // true
   console.log(isInt(12.2)); // false
-  console.log(isInt(0.3));
+  console.log(isInt(0.3)); */
+
+  for (let i = 1; i <= 100; i++) {
+    let f = i % 3 == 0,
+      b = i % 5 == 0;
+    console.log(f ? (b ? 'FizzBuzz' : 'Fizz') : b ? 'Buzz' : i);
+  }
